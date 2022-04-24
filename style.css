@@ -1,14 +1,53 @@
 body {
-	background-color:  gray;
-	font-family: Grenze;
+	background-color:  #dde1e9;
+	font-family: Roboto Mono;
+	font-weight: 500;
+	text-transform: uppercase;
 	display:  flex;
 	flex-direction: column;
 	align-tems:  center;
+	font-size:  24px;
+	color:  #0e1e43;
+	
 }
 
 .container {
-	background-color: blue;
 	overflow:  hidden;
+	margin: 15px 0px;
+}
+
+.footer {
+	/*font-family: Grenze;
+*/	text-transform: none;
+	margin-top: 60px;
+	display:  flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+img {
+	max-width: 100%;
+}
+
+.large {
+	text-transform: none;
+	font-family: Grenze;
+	font-size: 70px;
+	line-height: 70px;
+	color:  red;
+	background-color:  #300e15;
+	padding:  10px 0px;
+}
+
+
+
+.medium {
+	font-size:  36px;
+}
+
+.thin {
+	font-weight: 300;
+	font-size:  40px;
 }
 
 .cont{
@@ -21,6 +60,7 @@ body {
     display: flex;
     width: 100%;
     justify-content: space-between;
+
 }
 
 .tithome{
@@ -29,14 +69,16 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     flex-shrink: 0;
+    margin:  0 auto;
+    display:  flex;
+    flex-align: center;
 }
 
 .tithome li{
     width: fit-content;
     display: inline-block;
     list-style: none;
-    padding-right: 30px;
-    font-size: 40px;
+    padding-right: 20px;
 }
 
 @keyframes marquee {
