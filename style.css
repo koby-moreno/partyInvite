@@ -1,5 +1,6 @@
 body {
 	background-color:  #dde1e9;
+	background-color: #dadde8;
 	font-family: Roboto Mono;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -8,7 +9,13 @@ body {
 	align-tems:  center;
 	font-size:  24px;
 	color:  #0e1e43;
+	margin:  0;
 	
+}
+
+.firstImage {
+	margin:  30px 0px;
+	margin-top: 120px;
 }
 
 .container {
@@ -18,25 +25,35 @@ body {
 
 .footer {
 	/*font-family: Grenze;
-*/	text-transform: none;
-	margin-top: 60px;
+*/	/*text-transform: none;*/
+	margin-top: 40px;
 	display:  flex;
-	align-items: center;
+	/*align-items: center;*/
 	flex-direction: column;
 }
 
+.info {
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 10px;
+}
+
 img {
-	max-width: 100%;
+	width: 100%;
+	max-width: 600px;
 }
 
 .large {
+	position:  fixed;
+	top:  0px;
 	text-transform: none;
 	font-family: Grenze;
 	font-size: 70px;
 	line-height: 70px;
 	color:  red;
 	background-color:  #300e15;
-	padding:  10px 0px;
+	padding:  15px 0px;
+	margin: 0px;
 }
 
 
